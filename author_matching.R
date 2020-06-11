@@ -2,6 +2,10 @@
 library(tidystringdist)
 library(tidyverse)
 
+# Rule:
+# name with most titles is default
+# names are merged based on cosine, jaccard and jw values
+
 data <- c("Ron L. Hubbard", "L. Ron Hubbard",
           "Ron Hubbard", "L Ron Hubbard", "John L Hubbard","Ernest Hemingway")
 
